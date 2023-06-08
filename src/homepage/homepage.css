@@ -1,0 +1,74 @@
+.Homepage {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 40px;
+  font-size: 16px;
+  background-image: linear-gradient(to top, #222222 0%, black 100%);
+}
+.appLogo {
+  background-color: black;
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+}
+h1{
+  color: #7030A0;
+  visibility: hidden;
+}
+input{
+  padding: 2px;
+  width: 250px;
+  height: 30px;
+  border-color: white;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border-width: 1px;
+}
+table{
+  width: 80%;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  color: white;
+}
+thead{
+  background-color: rgb(44, 44, 44);
+  color: white;
+  text-align: center;
+}
+tbody > tr{
+  text-align: right;
+}
+td{
+  text-align: center;
+  padding: 5px;
+}
+.rank{
+  font-weight: bold;
+}
+.cryptoIcon{
+  width: 30px;
+  height: 30px;
+  text-align: right;
+}
+.trendUp{
+  color: lime;
+}
+.trendDown{
+  color: red;
+}
+.symbol{
+  color: #A8A8A8;
+}
+button{
+  background-color: rgb(223, 149, 22);
+  border-color: white;
+  color: white;
+  padding: 5px;
+  border-width: 1px;
+  border-radius: 5px;
+}
